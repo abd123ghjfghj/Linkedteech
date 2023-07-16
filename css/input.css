@@ -1,0 +1,114 @@
+.section {
+    background: #fff;
+}
+
+.section .container {
+    width: 1160px;
+    background: #F4F9FC;
+}
+
+.section .container .wrapper {
+    width: 100%;
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+.section .container .wrapper .left {
+    width: 50%;
+}
+
+.section .container .wrapper .left .user {
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.145em;
+    text-transform: uppercase;
+    color: #C72535;
+    opacity: 0.6;
+
+}
+
+.section .container .wrapper .left .contact {
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    color: #030D15;
+
+}
+
+.section .container .wrapper .left .standart {
+    width: 360px;
+    height: 42px;
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #030D15;
+    opacity: 0.6;
+}
+
+
+
+
+.section .container .wrapper .right {
+    width: 50%;
+}
+
+.section .container .wrapper .right form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+.section .container .wrapper .right form label input {
+    width: 335px;
+    height: 51px;
+    outline: none;
+    border: 1px solid rgba(3, 13, 21, 0.4px);
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 26px;
+
+}
+
+.section .container .wrapper .right form label input::placeholder {
+    padding: 15px 0px 14px 0px;
+    opacity: 0.4;
+}
+
+.section .container .wrapper .right form .button {
+    width: 123px;
+    height: 51px;
+    background: #247CC0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 3px solid transparent;
+    transition: 500ms;
+}
+
+
+.section .container .wrapper .right form .button:hover {
+    border: 3px solid #247CC0;
+    background-color: transparent;
+    color: #247CC0;
+    border-radius: 3px;
+}

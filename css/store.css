@@ -1,0 +1,541 @@
+.store {
+    margin: 130px 0;
+}
+
+.store-wrap_chunk {
+    width: 457px;
+    height: 48px;
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #030D15;
+    opacity: 0.6;
+    margin: 7px auto 50px;
+}
+
+.store-wrap_devices {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.store-wrap_devices2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.store-wrap_devices3 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.devices-s_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 360px;
+    height: 330px; */
+    background: #FFFFFF;
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+}
+
+.devices-s_ipod {
+    width: 220px;
+    height: 161px;
+}
+
+.devices-s_block2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 360px;
+    height: 456px; */
+    background: #FFFFFF;
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+}
+
+.devices-s_drone {
+    width: 308px;
+    height: 72px;
+}
+
+.main-fath {
+    display: flex;
+    gap: 30px;
+}
+
+.store_pricing {
+    transform: translate(380px) translateY(35px);
+    transition: 700ms;
+
+}
+
+.store_cost:hover .store_pricing {
+    transform: translate(35px) translateY(35px);
+}
+
+.store_cost {
+    width: 360px;
+    height: 330px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 500ms;
+}
+
+.store_cost:hover {
+    border: 1px solid transparent;
+    box-shadow: 0px 100px 80px rgba(192, 192, 192, 0.07), 0px 41.7776px 33.4221px rgba(192, 192, 192, 0.0503198), 0px 22.3363px 17.869px rgba(192, 192, 192, 0.0417275), 0px 12.5216px 10.0172px rgba(192, 192, 192, 0.035), 0px 6.6501px 5.32008px rgba(192, 192, 192, 0.0282725), 0px 2.76726px 2.21381px rgba(192, 192, 192, 0.0196802);
+}
+
+.store_gadget {
+    transform: translate(-390px);
+    display: flex;
+    justify-content: space-around;
+    padding: 26px 5px;
+    margin-top: 35px;
+    color: black;
+    transition: 700ms;
+}
+
+.store-s {
+    color: black;
+}
+
+.store_cost:hover .store_gadget {
+    transform: translate(0px);
+    display: flex;
+    justify-content: space-around;
+    padding: 26px 5px;
+    margin-top: 35px;
+    color: black;
+}
+
+.gadgets_stars {
+    gap: 1px;
+    transform: translateX(-105px) translateY(22px);
+    transition: 700ms;
+}
+
+.store_cost:hover .gadgets_stars {
+    gap: 1px;
+    transform: translateX(35px) translateY(22px);
+
+}
+
+.store_star {
+    width: 12px;
+    height: 12px;
+    font-size: 12px;
+}
+
+
+.store2_cost {
+    width: 360px;
+    height: 456px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 500ms;
+}
+
+.store2_cost:hover {
+    border: 1px solid transparent;
+    box-shadow: 0px 100px 80px rgba(192, 192, 192, 0.07), 0px 41.7776px 33.4221px rgba(192, 192, 192, 0.0503198), 0px 22.3363px 17.869px rgba(192, 192, 192, 0.0417275), 0px 12.5216px 10.0172px rgba(192, 192, 192, 0.035), 0px 6.6501px 5.32008px rgba(192, 192, 192, 0.0282725), 0px 2.76726px 2.21381px rgba(192, 192, 192, 0.0196802);
+}
+
+.gadgets_starsss {
+    margin-bottom: 40px;
+    transform: translateX(-350px) translateY(22px);
+    transition: 700ms;
+}
+
+.store2_cost:hover .gadgets_starsss {
+    gap: 1px;
+    transform: translateX(35px) translateY(22px);
+
+}
+
+.store_cost:hover .store_gadget {
+    transform: translate(0px);
+    display: flex;
+    justify-content: space-around;
+    padding: 26px 5px;
+    margin-top: 35px;
+    color: black;
+}
+
+.store_pricing {
+    transform: translate(360px) translateY(35px);
+    transition: 500ms;
+}
+
+.store2_cost:hover .store_pricing {
+    transform: translate(35px) translateY(35px);
+}
+
+.store_gadgets {
+    transform: translate(-390px);
+    display: flex;
+    justify-content: space-around;
+    padding: 26px 10px;
+    margin-top: 35px;
+    color: black;
+    transition: 700ms;
+}
+
+.store2_cost:hover .store_gadgets {
+    transform: translate(0px);
+    display: flex;
+    justify-content: space-around;
+    padding: 26px 5px;
+    margin-top: 35px;
+    color: black;
+}
+
+
+.store3_gadget {
+    width: 360px;
+    height: 252px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 500ms;
+}
+
+.store3_gadget:hover {
+    border: 1px solid transparent;
+    box-shadow: 0px 100px 80px rgba(192, 192, 192, 0.07), 0px 41.7776px 33.4221px rgba(192, 192, 192, 0.0503198), 0px 22.3363px 17.869px rgba(192, 192, 192, 0.0417275), 0px 12.5216px 10.0172px rgba(192, 192, 192, 0.035), 0px 6.6501px 5.32008px rgba(192, 192, 192, 0.0282725), 0px 2.76726px 2.21381px rgba(192, 192, 192, 0.0196802);
+}
+
+.devices-s2_block {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: #FFFFFF;
+}
+
+.store3_pricing {
+    transform: translate(360px) translateY(25px);
+    transition: 500ms;
+}
+
+.store3_gadget:hover .store3_pricing {
+    transform: translate(35px) translateY(25px);
+}
+
+.gadgets_starssss {
+    margin-bottom: 40px;
+    transform: translateX(-150px) translateY(12px);
+    transition: 700ms;
+}
+
+
+.store3_gadget:hover .gadgets_starssss {
+    gap: 1px;
+    transform: translateX(35px) translateY(12px);
+}
+
+.store_gadgetsss {
+    transform: translate(-390px);
+    display: flex;
+    justify-content: space-around;
+    padding: 26px 5px;
+    margin-top: 10px;
+    color: black;
+    transition: 700ms;
+}
+
+.store3_gadget:hover .store_gadgetsss {
+    transform: translate(0px);
+    display: flex;
+    justify-content: space-around;
+    padding: 26px 5px;
+    margin-top: 10px;
+    color: black;
+}
+
+.store4_gadget {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 252px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 500ms;
+}
+
+.store4_gadget:hover {
+    border: 1px solid transparent;
+    box-shadow: 0px 100px 80px rgba(192, 192, 192, 0.07), 0px 41.7776px 33.4221px rgba(192, 192, 192, 0.0503198), 0px 22.3363px 17.869px rgba(192, 192, 192, 0.0417275), 0px 12.5216px 10.0172px rgba(192, 192, 192, 0.035), 0px 6.6501px 5.32008px rgba(192, 192, 192, 0.0282725), 0px 2.76726px 2.21381px rgba(192, 192, 192, 0.0196802);
+}
+
+
+.devices-s2_block2 {
+    width: 226px;
+    height: 198px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.store4_pricing {
+    transform: translate(360px) translateY(35px);
+    transition: 500ms;
+}
+
+
+.store4_gadget:hover .store4_pricing {
+    transform: translate(35px) translateY(35px);
+}
+
+.gadgets_starsssss {
+    /* margin-bottom: 40px; */
+    transform: translateX(-231px) translateY(22px);
+    transition: 500ms;
+}
+
+.store4_gadget:hover .gadgets_starsssss {
+    gap: 1px;
+    transform: translateX(-107px) translateY(22px);
+
+}
+
+.store4_gadgets {
+    transform: translate(-390px) translateY(-34px);
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    transition: 700ms;
+}
+
+.store4_gadget:hover .store4_gadgets {
+    transform: translate(0px) translateY(-34px);
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.store5_gadget {
+    width: 360px;
+    height: 252px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 500ms;
+}
+
+.store5_gadget:hover {
+    border: 1px solid transparent;
+    box-shadow: 0px 100px 80px rgba(192, 192, 192, 0.07), 0px 41.7776px 33.4221px rgba(192, 192, 192, 0.0503198), 0px 22.3363px 17.869px rgba(192, 192, 192, 0.0417275), 0px 12.5216px 10.0172px rgba(192, 192, 192, 0.035), 0px 6.6501px 5.32008px rgba(192, 192, 192, 0.0282725), 0px 2.76726px 2.21381px rgba(192, 192, 192, 0.0196802);
+}
+
+
+.devices-s2_block3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.store5_gadgets {
+    width: 360px;
+    height: 75px;
+    transform: translate(-390px) translateY(-34px);
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    transition: 700ms;
+}
+
+.store5_pricing {
+    transform: translate(360px) translateY(45px);
+    transition: 500ms;
+}
+
+
+.store5_gadget:hover .store5_pricing {
+    transform: translate(35px) translateY(45px);
+
+}
+
+.gadgets_starssssss {
+    /* margin-bottom: 40px; */
+    transform: translateX(-231px) translateY(32px);
+    transition: 500ms;
+}
+
+
+.store5_gadget:hover .gadgets_starssssss {
+    gap: 1px;
+    transform: translateX(-107px) translateY(32px);
+
+}
+
+.store5_gadgets {
+    /* transform: translate(10px) translateY(10px);
+gap: 5px; */
+    transform: translate(-390px) translateY(-5px);
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    transition: 700ms;
+}
+
+.store5_gadget:hover .store5_gadgets {
+    transform: translate(0px) translateY(-5px);
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.store6_gadget {
+    width: 360px;
+    height: 432px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.store6_gadget:hover {
+    border: 1px solid transparent;
+    box-shadow: 0px 100px 80px rgba(192, 192, 192, 0.07), 0px 41.7776px 33.4221px rgba(192, 192, 192, 0.0503198), 0px 22.3363px 17.869px rgba(192, 192, 192, 0.0417275), 0px 12.5216px 10.0172px rgba(192, 192, 192, 0.035), 0px 6.6501px 5.32008px rgba(192, 192, 192, 0.0282725), 0px 2.76726px 2.21381px rgba(192, 192, 192, 0.0196802);
+}
+
+
+.store6_gadgets {
+    width: 360px;
+    height: 75px;
+    transform: translate(-390px) translateY(-34px);
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    transition: 700ms;
+}
+
+.store6_pricing {
+    transform: translate(360px) translateY(15px);
+    transition: 500ms;
+}
+
+
+.store6_gadget:hover .store6_pricing {
+    transform: translate(35px) translateY(15px);
+
+}
+
+.gadgets_starsssssss {
+    /* margin-bottom: 40px; */
+    transform: translateX(-231px) translateY(2px);
+    transition: 500ms;
+}
+
+
+.store6_gadget:hover .gadgets_starsssssss {
+    gap: 1px;
+    transform: translateX(-107px) translateY(2px);
+
+}
+
+.store6_gadgets {
+    /* transform: translate(10px) translateY(10px);
+gap: 5px; */
+    transform: translate(-390px) translateY(35px);
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    transition: 700ms;
+}
+
+.store6_gadget:hover .store6_gadgets {
+    transform: translate(0px) translateY(35px);
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.store7_gadget {
+    width: 360px;
+    height: 354px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 500ms;
+}
+
+.store7_gadget:hover {
+    border: 1px solid transparent;
+    box-shadow: 0px 100px 80px rgba(192, 192, 192, 0.07), 0px 41.7776px 33.4221px rgba(192, 192, 192, 0.0503198), 0px 22.3363px 17.869px rgba(192, 192, 192, 0.0417275), 0px 12.5216px 10.0172px rgba(192, 192, 192, 0.035), 0px 6.6501px 5.32008px rgba(192, 192, 192, 0.0282725), 0px 2.76726px 2.21381px rgba(192, 192, 192, 0.0196802);
+}
+
+.store7_gadgets {
+    width: 360px;
+    height: 75px;
+    transform: translate(-390px) translateY(-34px);
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    transition: 700ms;
+}
+
+.store7_pricing {
+    transform: translate(360px) translateY(5px);
+    transition: 500ms;
+}
+
+
+.store7_gadget:hover .store7_pricing {
+    transform: translate(35px) translateY(5px);
+
+}
+
+.gadgets_starssssssss {
+    /* margin-bottom: 40px; */
+    transform: translateX(-231px) translateY(-8px);
+    transition: 500ms;
+}
+
+
+.store7_gadget:hover .gadgets_starssssssss {
+    gap: 1px;
+    transform: translateX(-107px) translateY(-8px);
+
+}
+
+.store7_gadgets {
+    /* transform: translate(10px) translateY(10px);
+gap: 5px; */
+    transform: translate(-390px) translateY(45px);
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    transition: 700ms;
+}
+
+.store7_gadget:hover .store7_gadgets {
+    transform: translate(0px) translateY(45px);
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}

@@ -1,0 +1,134 @@
+.footer {
+    background: #030D15;
+}
+
+.footer_wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 0px 75px 0px;
+}
+
+.wrapper-f_center-f ul li a {
+    display: block;
+}
+
+.wrapper-f_first-f {
+    margin-left: 0px;
+}
+
+.wrapper-f_img {
+    width: 66.9px;
+    height: 66px;
+}
+
+.wrapper-f_store {
+    width: 261px;
+    height: 69px;
+    left: 230px;
+    top: 5903px;
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-top: 22px;
+}
+
+.wrapper-f_center-f {
+    width: 165px;
+    height: 265px;
+}
+
+.wrapper-f_f-text {
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+}
+
+.wrapper-f_same {
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-bottom: 15px;
+}
+
+.wrapper-f_store-f {
+    width: 261px;
+    height: 69px;
+    left: 1109px;
+    top: 5862px;
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-bottom: 14px;
+}
+
+.wrapper-f_about-f {
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+}
+
+.wrapper-f_site-f li a {
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.wrapper-f_sites li {
+    display: flex;
+    gap: 25px;
+    margin: bottom 45px;
+    text-align: center;
+}
+
+.sites-f {
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.wrapper-f_language {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.lang-f {
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.wrapper-f_english {
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-left: 9px;
+    margin-right: 4px;
+}
+

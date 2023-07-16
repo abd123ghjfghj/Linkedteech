@@ -1,0 +1,26 @@
+/* NORMALIZE CSS */
+@import url(normalize.css);
+
+/* HEADER CSS */
+@import url(header.css);
+
+/*BRAND CSS */
+@import url(brand.css);
+
+/* CATEGORY CSS */
+@import url(category.css);
+
+/* INFO CSS */
+@import url(info.css);
+
+/* INPUT CSS */
+@import url(input.css);
+
+/* FOOTER CSS */
+@import url(footer.css);
+
+/* PRODUCT CSS */
+@import url(product.css);
+
+/* STORE CSS */
+@import url(store.css);
